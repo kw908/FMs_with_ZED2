@@ -1,6 +1,11 @@
 # FMs_with_ZED2
 Implementing foundation models and other applications with ZED2 camera
 
+Platforms:
+Ubuntu 20.04, ROS2 Foxy
+nVidia Jetson Orin Nano
+ZED2 Camera
+
 ## ZED2 Camera Setup
 
 ## SLAM Toolbox and NAV2

@@ -10,7 +10,8 @@ Implementing foundation models and other applications with ZED2 camera
 
 ## ZED2 Camera Setup
 The NAV2 SLAM Toolbox supports ZED camera series: [Using VIO to Augment Robot Odometry](https://navigation.ros.org/tutorials/docs/integrating_vio.html)
-To print only certain desired fields published in a ros2 topic, use 'grep' command piped from 'ros2 topic echo':
+
+To print only certain desired fields published in a ros2 topic, use 'grep' command piped from 'ros2 topic echo', for example:
 ```
 ros2 topic echo /zed/zed_node/odom | grep -A 4 "pose"
 ```

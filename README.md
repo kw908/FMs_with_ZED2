@@ -19,3 +19,7 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py
 ros2 launch slam_toolbox online_async_launch.py
 ```
 
+Before launching turtlebot3_world, export the following variables:
+```
+export TURTLEBOT3_MODEL=waffle LDS_MODEL=LDS-01
+```
